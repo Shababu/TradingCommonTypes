@@ -9,6 +9,5 @@
         List<ILimitOrder> GetOpenOrders(IExchangeUser user, string symbol);
         void PlaceInitialOrders(IExchangeUser user, List<SpotPosition> positions);
         void AutoTrade(IExchangeUser user, List<SpotPosition> positions, bool increaseAmount);
-        void UpdateOrderStatusAndId(SpotPosition position, ILimitOrder newLimitOrder);
     }
 }
