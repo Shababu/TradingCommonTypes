@@ -4,6 +4,7 @@
     {
         ILimitOrder PlaceNewLimitOrder(IExchangeUser user, string symbol, Sides side, decimal quantity, decimal price);
         ILimitOrder PlaceNewMarketOrder(IExchangeUser user, string symbol, Sides side, decimal quantity);
+        ILimitOrder CancelLimitOrder(IExchangeUser user, string symbol, string orderId);
         ILimitOrder GetOrderInfo(IExchangeUser user, string orderId, string symbol);
         string GetOrderStatus(IExchangeUser user, SpotPosition position, string symbol);
         List<ILimitOrder> GetOpenOrders(IExchangeUser user, string symbol);
