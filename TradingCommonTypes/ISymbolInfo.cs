@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace TradingCommonTypes
+﻿namespace TradingCommonTypes
 {
     public interface ISymbolInfo : ISimpleSymbol
     {

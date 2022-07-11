@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TradingCommonTypes
+﻿namespace TradingCommonTypes
 {
     public class SpotPosition
     {
