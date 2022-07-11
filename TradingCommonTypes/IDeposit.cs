@@ -2,7 +2,7 @@
 {
     public interface IDeposit
     {
-        long Id { get; set; }
+        string Id { get; set; }
         decimal Amount { get; set; }
         string TransactionFee { get; set; }
         string Coin { get; set; }
